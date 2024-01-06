@@ -23,7 +23,7 @@ twoPlayers.addEventListener('click', twoPlayersGame);
 
 function twoPlayersGame() {
     
-    document.querySelector('.maincontainer').style.marginTop = '13px';
+    document.querySelector('.maincontainer').style.marginTop = '10px';
     document.querySelector('.bt').style.marginBottom = '25px';
     twoPlayersSection.style.display = "";
     vsComputerSection.remove();
@@ -39,7 +39,7 @@ function twoPlayersGame() {
 vsComputer.addEventListener('click', vsComputerGame);
 
 function vsComputerGame(){
-    document.querySelector('.maincontainer').style.marginTop = '13px';
+    document.querySelector('.maincontainer').style.marginTop = '10px';
     document.querySelector('.bt').style.marginBottom = '25px';
     vsComputerSection.style.display = "";
     twoPlayersSection.remove();
