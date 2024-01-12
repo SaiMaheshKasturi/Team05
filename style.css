@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #B1C6D2;
+    background-color: #8bc6e7;
     
 }
 .back{
@@ -192,6 +192,9 @@ h1{
 }
 .msgcontainer{
     margin: 50px 20px 50px 20px;
+}
+.twoheading{
+    background-color: black;
 }
 .msgcontainer p,h1{
     text-align: center;
