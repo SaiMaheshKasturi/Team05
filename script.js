@@ -81,12 +81,12 @@ function setScoreText(mood){
     
     displayScore.style.display = '';
     if(mood=='vscomputer'){
-        playerOneScore.textContent = 'YourScore:';
-        playerTwoScore.textContent = 'SysScore:';
+        playerOneScore.textContent = 'Your Score:';
+        playerTwoScore.textContent = 'Computer Score:';
     }
     if(mood =='twoplayer'){
-        playerOneScore.textContent = 'Player1Score:';
-        playerTwoScore.textContent = 'Player2Score:';
+        playerOneScore.textContent = 'Player 1 Score:';
+        playerTwoScore.textContent = 'Player 2 Score:';
     }
 }
 //displaying the total number of wins by user
@@ -100,11 +100,11 @@ function wins(player){
     if(player == 'X'){
         Xscore+=1;
         // console.log(Xscore);
-        playerOneScore.textContent=`Player1Score: ${Xscore}`;
+        playerOneScore.textContent=`Player 1 Score: ${Xscore}`;
     }
     else if(player == 'O'){
         Oscore+=1;
-        playerTwoScore.textContent = `Player2Score: ${Oscore}`;
+        playerTwoScore.textContent = `Player 2 Score: ${Oscore}`;
     }
 }
 
